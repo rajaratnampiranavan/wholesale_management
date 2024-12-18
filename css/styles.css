@@ -1,0 +1,218 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Forms */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Fields */
+input[type="datetime-local"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Search Form */
+.search-form {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.search-input {
+    margin-right: 5px;
+    font-size: 12px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.custom-search-btn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.custom-search-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1px 5px;
+    font-size: 14px;
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.hospital-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.hospital-photo-empty {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+/* Buttons */
+button.usubmit,
+button.ssubmit {
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button.usubmit:hover,
+button.ssubmit:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0rem;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+}
+
+/* Tables */
+table {
+    width: 99%;
+    border-collapse: collapse;
+    margin-top: 110px;
+    margin-left: 2px;
+}
+
+th,
+td {
+    border: 2px solid #060000;
+    padding: 4px;
+}
+
+th {
+    background-color: #f5f790;
+}
+
+/* Responsive Print Styling */
+@media print {
+    table {
+        border: 1px solid #000;
+        width: 100%;
+    }
+
+    th,
+    td {
+        font-size: 12px;
+    }
+
+    .hidden-form {
+        display: none;
+    }
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Custom blue color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    transform: scale(1.05);
+
+}
+.nav-link {
+    color: brown !important;
+}
+
+.nav-link:hover {
+    color: darkbrown !important;
+    /* You can also change this to a darker brown on hover */
+}
+.btn-brown {
+    background-color: brown;
+    color: white;
+    /* White text color for contrast */
+}
+
+.btn-brown:hover {
+    background-color: darkbrown;
+    /* Optional: darker brown on hover */
+}
+.edit-button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-button:hover {
+    background-color: gold;
+    transform: scale(1.05);
+}
+
+.edit-button:active {
+    background-color: darkorange;
+}

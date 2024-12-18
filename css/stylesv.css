@@ -1,0 +1,40 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        table {
+            width: 70%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .summary {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        select,
+        button {
+            padding: 10px;
+            margin: 10px 0;
+        }
